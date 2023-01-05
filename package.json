@@ -1,6 +1,6 @@
 {
   "name": "telebot",
-  "version": "1.0.0",
+  "version": "2.1.0",
   "description": "Bot telegram",
   "main": "index.js",
   "scripts": {
