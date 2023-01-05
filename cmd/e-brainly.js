@@ -1,11 +1,11 @@
 const { Brainly } = require("brainly-scraper-v2")
-Brainly.initialize();
+
 
 module.exports = {
   start: async function(ctx, { text }) {
     if(!text) return ctx.reply("Cara penggunaan : /braily soal\n\nContoh penggunaan : /brainly Apa itu atom?")
     await ctx.reply("⏳| Silahkan tunggu")
-    
+    Brainly.initialize();
     const brain = new Brainly("id")
     const res = await brain.searchWithMT(text, "id")
     const teks = `=======[ <b>🧠Brainly Searching🔍</b> ]=======
