@@ -8,7 +8,7 @@ module.exports = {
     
     const brain = new Brainly("id")
     const res = await brain.searchWithMT(text, "id")
-    const teks = `=======[ 🧠Brainly Searching🔍 ]=======
+    const teks = `=======[ <b>🧠Brainly Searching🔍</b> ]=======
 
 🔍Pencarian Soal Dari 
 <b>${res[0].question.content}</b>
