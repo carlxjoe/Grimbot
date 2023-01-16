@@ -1,10 +1,10 @@
 module.exports = {
   start: async function(ctx) {
-    let Restu = [{ type: "Telegram", value: "https://t.me/MuhammadRestu" }, { type: "Facebook", value: "https://m.facebook.com/mohamad.restu.71" }, { type: "Instagram", value: "https://www.instagram.com/_muhammad.restu_" }]
+    let Restu = [{ type: "Telegram", value: "https://t.me/davxndev" }, { type: "Instagram", value: "https://www.instagram.com/rizxyux" }]
 
-    let list = [Restu]
+    let list = [Davxn]
 
-    let str = "Medsos owner\n\nRestu => "
+    let str = "Medsos owner\n\nDavxn => "
     if(list.length == 1) {
       let index = 0
       for(let i of list[0]) {
