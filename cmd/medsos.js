@@ -1,6 +1,6 @@
 module.exports = {
   start: async function(ctx) {
-    let Restu = [{ type: "Telegram", value: "https://t.me/davxndev" }, { type: "Instagram", value: "https://www.instagram.com/rizxyux" }]
+    let Davxn = [{ type: "Telegram", value: "https://t.me/davxndev" }, { type: "Instagram", value: "https://www.instagram.com/rizxyux" }]
 
     let list = [Davxn]
 
