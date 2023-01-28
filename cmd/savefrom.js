@@ -14,6 +14,6 @@ ${duration ? "*Duration:* " + duration : "null"}
 })
 },
   tags: "downloader",
-  help: ["tt", "tiktok", "ttdl", "tiktokdl", "savefrom", "fb", "facebook", "twitter"],
+  help: ["tt", "tiktok", "ttdl", "tiktokdl", "savefrom", "fb", "facebook", "twitter", "twt"],
   desc: "Mengunduh video dari mana saja"
 }
